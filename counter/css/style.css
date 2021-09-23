@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+.container{
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.81);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+border: 1px solid rgba(255, 255, 255, 0.39);
+width: 350px;
+height: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 32px;
+flex-direction: column;
+padding: 0 10px;
+}
+#counter{
+    transition: all .5s;
+}
+.buttons{
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#inc,#res,#dec{
+    border:none;
+    padding: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+#inc:hover{
+    background-color:green;
+    color: #fff;
+}
+#dec:hover{
+    background-color:red;
+    color: #fff;
+}

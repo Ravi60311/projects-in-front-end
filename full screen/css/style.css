@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#btn{
+    border: none;
+    padding: 12px 32px;
+    background-color:grey;
+    color: #fff;
+}
+#full-screen{
+    width: 100px;
+    height: 100px;
+}

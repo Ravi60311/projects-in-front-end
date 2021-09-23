@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn{
+    border: none;
+    outline: none;
+    padding: 12px 32px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: -1px -1px 11px 5px rgba(249,249,249,0.75);
+    -webkit-box-shadow: -1px -1px 11px 5px rgba(249,249,249,0.75);
+    -moz-box-shadow: -1px -1px 11px 5px rgba(249,249,249,0.75);
+}
